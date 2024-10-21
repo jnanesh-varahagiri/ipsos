@@ -1,0 +1,110 @@
+.dashboard {
+  width: 1440px;
+  height: 500px;
+  position: relative;
+  padding-left: 50px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  &-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  &-card-item{
+    width: 430px;
+    height: 250px;
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    &__header{
+        width: 430px;
+        height: 50px;
+        background-color: gold;
+        border-radius: 20px 20px 0px 0px;
+    }
+    &__content{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        padding-left: 25px;
+
+    }
+    &-btn{
+        width: 169px;
+        height: 40px;
+        position: absolute;
+        bottom: 25px;
+        left:25px;
+        background:none;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 5px;
+        
+
+    }
+
+  }
+
+}
+
+.count{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.count-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: center;
+    
+}
+
+.card-yellow{
+    border: 1px solid #FFC400;
+    color:#FFC400
+}
+
+.card-green{
+    border:1px solid #57D9A3;
+    color:#57D9A3;
+
+}
+
+.card-grey{
+    border:1px solid #D9D9D9;
+    color:#D9D9D9;
+
+}
+.yellow{
+    background: #FFC400;
+
+}
+.green{
+    background: #57D9A3;
+}
+.grey{
+    background: #d9d9d9;
+}
